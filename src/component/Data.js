@@ -1,0 +1,125 @@
+
+const Data = [
+    {
+        id : 1,
+        name : " Dell-laptop",
+        img : "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        price : 35000,
+        quatity : 1,
+        total : 35000,
+    },
+    {
+        id : 2,
+        name : "lenovo-laptop",
+        img : "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
+        price : 90000,
+        quatity : 1,
+        total : 90000,
+    },
+    {
+        id : 3,
+        name : " Apple-laptop",
+        img : "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        price : 150000,
+        quatity : 1,
+        total : 150000,
+    },
+    {
+        id : 4,
+        name : "sumsung-mobile",
+        img : "https://images.unsplash.com/photo-1585060544812-6b45742d762f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=881&q=80",
+        price : 40000,
+        quatity : 1,
+        total : 150000,
+    },
+    {
+        id : 5,
+        name : "iphone-mobile",
+        img : "https://images.unsplash.com/photo-1533228100845-08145b01de14?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=438&q=80",
+        price : 120000,
+        quatity : 1,
+        total : 120000,
+    },
+    {
+        id : 6,
+        name : "MI-mobile",
+        img : "https://images.unsplash.com/photo-1528795259021-d8c86e14354c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80",
+        price : 25000,
+        quatity : 1,
+        total : 25000,
+    },
+    {
+        id : 7,
+        name : "Apple-desktop",
+        img : "https://images.unsplash.com/photo-1587831990711-23ca6441447b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVza3RvcCUyMGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        price : 82000,
+        quatity: 1,
+        total : 82000,
+    },
+    {
+        id : 8,
+        name : "sumsung-desktop",
+        img : "https://images.unsplash.com/photo-1593640495253-23196b27a87f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZGVza3RvcCUyMGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        price : 60000,
+        quatity : 1,
+        total : 60000,
+    },
+    {
+        id : 9,
+        name : "LG-desktop",
+        img : "https://images.unsplash.com/photo-1579765754037-5bfef757251a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+        price : 65000,
+        quatity : 1,
+        total : 65000,
+    },
+    {
+        id : 10,
+        name : "penasonic-dryer",
+        img : "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        price : 5000,
+        quatity : 1,
+        total : 5000,
+
+    },
+    {
+        id : 11,
+        name : "LG-dryer",
+        img : "https://images.unsplash.com/photo-1621607511490-c15010fe989c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGhhaXIlMjBkcnllcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        price : 3000,
+        quatity : 1,
+        total : 3000,
+    },
+    {
+        id : 12,
+        name : "Nayka-dryer",
+        img : "https://plus.unsplash.com/premium_photo-1669675935972-74a2f5d1e44a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80",
+        price : 2500,
+        quatity : 1,
+        total : 2500
+    },
+    {
+        id : 13,
+        name : "Treadmill",
+        img : "https://images.unsplash.com/photo-1633394782240-f81aba3f850d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        price : 200000,
+        quatity : 1
+    },
+    {
+        id : 14,
+        name : "Electric car",
+        img : "https://images.unsplash.com/photo-1636142526673-1fa0f49e7874?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        price : 250000,
+        quatity : 1,
+        total : 250000,
+    },
+    {
+        id : 15,
+        name : "Handfree",
+        img : "https://images.unsplash.com/photo-1613497646519-ee1ab64293af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=725&q=80",
+        price : 1500,
+        quatity : 1,
+        total : 2500,
+    }
+]
+
+export default Data;
